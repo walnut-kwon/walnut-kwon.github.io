@@ -1,0 +1,232 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+        @theme {
+          --font-display: "Noto Sans KR", sans-serif;
+        }
+      </style>
+</head>
+
+<body class="bg-linear-150/decreasing from-blue-400 via-white to-yellow-400 font-display">
+    <h1 class="text-2xl font-bold border-b bg-white text-center py-8 mb-16">
+        호두하우스 새집맞이 위시리스트
+    </h1>
+
+    <h2 id="curated" class="text-center mb-4">
+        <p class="text-3xl font-bold mb-2">직접 골라주고 싶으시면</p>
+        <p>추천받고 싶은 아이템들</p>
+    </h2>
+    <div class="flex flex-row flex-wrap justify-center mb-16">
+        <div class="item shadow-lg p-4 m-4 bg-white rounded-2xl">
+            <div class="w-[320px] h-[320px] bg-[url(./img/1-1.jpg)] bg-cover bg-center rounded-2xl mb-4">
+            </div>
+            <p class="text-lg mb-1 font-bold">탁상시계</p>
+            <ul class="list-disc pl-6 text-slate-700">
+                <li>침대 옆에 두려고 해요</li>
+                <li>디지털/아날로그 상관없어요</li>
+                <li>빛이 잠을 방해하지 않았으면 좋겠어요</li>
+                <li>건전지식이면 좋아요</li>
+                <li>부가기능은 있으면 좋지만 없어도 괜찮아요<br />(알람/날짜/온도/습도 등등)</li>
+            </ul>
+        </div>
+        <div class="item shadow-lg p-4 m-4 bg-white rounded-2xl">
+            <div class="w-[320px] h-[320px]  bg-[url(./img/1-2.jpg)] bg-cover bg-center rounded-2xl mb-4">
+            </div>
+            <p class="text-lg mb-1 font-bold">비누</p>
+            <ul class="list-disc pl-6 text-slate-700">
+                <li>지금까지는 적당히 아무거나 썼어요</li>
+                <li>손 씻을 때 쓸 거예요</li>
+                <li>고체 비누가 좋아요</li>
+            </ul>
+        </div>
+        <div class="item shadow-lg p-4 m-4 bg-white rounded-2xl">
+            <div class="w-[320px] h-[320px]  bg-[url(./img/1-3.jpg)] bg-cover bg-center rounded-2xl mb-4">
+            </div>
+            <p class="text-lg mb-1 font-bold">치약</p>
+            <ul class="list-disc pl-6 text-slate-700">
+                <li>지금까지는 적당히 아무거나 썼어요 (2)</li>
+                <li>불소가 들어있었으면 좋겠어요</li>
+            </ul>
+        </div>
+        <div class="item shadow-lg p-4 m-4 bg-white rounded-2xl">
+            <div class="w-[320px] h-[320px]  bg-[url(./img/1-4.jpg)] bg-cover bg-center rounded-2xl mb-4">
+            </div>
+            <p class="text-lg mb-1 font-bold">커피</p>
+            <ul class="list-disc pl-6 text-slate-700">
+                <li>아직 그다지 취향이랄 게 없습니다</li>
+                <li>지금까지는 <a href="https://brand.naver.com/nescafeshop/products/10523143964" target="_blank"
+                        class="underline">이걸</a> 먹고 있었어요</li>
+                <li>커피머신이 (아직) 없어서, 캡슐은 어려워요</li>
+            </ul>
+        </div>
+        <div class="item shadow-lg p-4 m-4 bg-white rounded-2xl">
+            <div class="w-[320px] h-[320px]  bg-[url(./img/1-5.jpg)] bg-cover bg-center rounded-2xl mb-4">
+            </div>
+            <p class="text-lg mb-1 font-bold">주류 전반</p>
+            <ul class="list-disc pl-6 text-slate-700">
+                <li>비싼 거 아니어도 됩니다</li>
+                <li>당일 같이 먹어도 좋구요</li>
+                <li>맛 취향: 맥주는 필스너, 와인은 스위트</li>
+                <li>위스키는 아직 맛있는지 모르겠어요</li>
+            </ul>
+        </div>
+        <div class="item shadow-lg p-4 m-4 bg-white rounded-2xl">
+            <div class="w-[320px] h-[320px]  bg-[url(./img/1-6.jpg)] bg-cover bg-center rounded-2xl mb-4">
+            </div>
+            <p class="text-lg mb-1 font-bold">코인육수/다시팩</p>
+            <ul class="list-disc pl-6 text-slate-700">
+                <li>사려고 보니 종류가 너무 다양하더라구요</li>
+                <li>써보신 분들의 추천을 받아보려 합니다</li>
+            </ul>
+        </div>
+        <div class="item shadow-lg p-4 m-4 bg-white rounded-2xl">
+            <div class="w-[320px] h-[320px]  bg-[url(./img/1-7.jpg)] bg-cover bg-center rounded-2xl mb-4">
+            </div>
+            <p class="text-lg mb-1 font-bold">향 제품</p>
+            <ul class="list-disc pl-6 text-slate-700">
+                <li>자취의 로망과 약간의 허영심</li>
+                <li>디퓨저, 샤쉐, 오일 등등</li>
+                <li>불이 필요하지 않은 걸로</li>
+                <li>써본 것: 교보문고 룸 스프레이 정도</li>
+            </ul>
+        </div>
+        <div class="item shadow-lg p-4 m-4 bg-white rounded-2xl">
+            <div class="w-[320px] h-[320px]  bg-[url(./img/1-8.jpg)] bg-cover bg-center rounded-2xl mb-4">
+            </div>
+            <p class="text-lg mb-1 font-bold">키친타올</p>
+            <ul class="list-disc pl-6 text-slate-700">
+                <li>로망 한번 맡고 다시 현실로</li>
+                <li>일회용 키친타올이면 아무거나</li>
+            </ul>
+        </div>
+        <div class="item shadow-lg p-4 m-4 bg-white rounded-2xl">
+            <div class="w-[320px] h-[320px]  bg-[url(./img/1-9.jpg)] bg-cover bg-center rounded-2xl mb-4">
+            </div>
+            <p class="text-lg mb-1 font-bold">휴지</p>
+            <ul class="list-disc pl-6 text-slate-700">
+                <li>집들이 단골 선물</li>
+                <li>두루마리/곽휴지 다 받습니다</li>
+            </ul>
+        </div>
+        <div class="item shadow-lg p-4 m-4 bg-white rounded-2xl">
+            <div class="w-[320px] h-[320px]  bg-[url(./img/1-10.jpg)] bg-cover bg-center rounded-2xl mb-4">
+            </div>
+            <p class="text-lg mb-1 font-bold">물티슈</p>
+            <ul class="list-disc pl-6 text-slate-700">
+                <li>이것도 사실 아무거나 상관없지만</li>
+                <li>선물로 받는 김에 친환경(a.k.a. 비싼)을<br />써보고 싶어요</li>
+            </ul>
+        </div>
+    </div>
+
+    <h2 id="fixed" class="text-center mb-4">
+        <p class="text-3xl font-bold mb-2">고르는 것이 부담된다면</p>
+        <p>제가 대신 골라드렸습니다(?)</p>
+    </h2>
+    <div class="flex flex-row flex-wrap justify-center mb-16">
+        <div class="item shadow-lg p-4 m-4 bg-white rounded-2xl">
+            <div class="w-[320px] h-[320px]  bg-[url(./img/2-1.jpg)] bg-cover bg-center rounded-2xl mb-4">
+            </div>
+            <p class="text-lg mb-2 font-bold">오랄비 초미세모 칫솔</p>
+            <!-- <p class="mb-4">아이템 설명</p> -->
+            <a href="https://brand.naver.com/oralbkr/products/5683606165" target="_blank"
+                class="block py-2 text-center bg-slate-300 rounded-lg mb-2">보러가기</a>
+            <ul class="list-disc pl-6 text-slate-700 mb-4">
+                <li>모도 가늘고 헤드도 작아요</li>
+                <li>이거 쓴 뒤로 치과 갈 일이 줄었어요</li>
+            </ul>
+        </div>
+        <div class="item shadow-lg p-4 m-4 bg-white rounded-2xl">
+            <div class="w-[320px] h-[320px]  bg-[url(./img/2-2.jpg)] bg-cover bg-center rounded-2xl mb-4">
+            </div>
+            <p class="text-lg mb-2 font-bold">햇반 잡곡밥</p>
+            <a href="https://brand.naver.com/cheiljedang/products/7596517590" target="_blank"
+                class="block py-2 text-center bg-slate-300 rounded-lg mb-2">보러가기</a>
+            <ul class="list-disc pl-6 text-slate-700 mb-4">
+                <li>렌틸콩밥이 유행이라지만<br />너무 유행 쫓는 것 같아서</li>
+                <li>적당한 잡곡밥으로 골라봤어요</li>
+            </ul>
+        </div>
+        <div class="item shadow-lg p-4 m-4 bg-white rounded-2xl">
+            <div class="w-[320px] h-[320px] bg-[url(./img/2-3.jpg)] bg-cover bg-center rounded-2xl mb-4">
+            </div>
+            <p class="text-lg mb-2 font-bold">포카리스웨트 분말</p>
+            <a href="https://brand.naver.com/donga-otsuka/products/8018407244" target="_blank"
+                class="block py-2 text-center bg-slate-300 rounded-lg mb-2">보러가기</a>
+            <ul class="list-disc pl-6 text-slate-700 mb-4">
+                <li>운동할 때 타먹으니 좋더라구요</li>
+                <li>공간 차지도 안 해서 아주 마음에 들었습니다</li>
+            </ul>
+        </div>
+    </div>
+
+    <!--
+    <h2 id="book" class="text-center mb-4">
+        <p class="text-3xl font-bold mb-2">혹시 썩 당기는 것이 없다면</p>
+        <p>책도 받습니다</p>
+    </h2>
+    <div class="flex flex-row flex-wrap justify-center mb-16">
+        <div class="item shadow-lg p-4 m-4 bg-white rounded-2xl">
+            <div
+                class="w-[320px] h-[400px]  bg-[url(./img/3-1.jpg)] bg-cover bg-center rounded-2xl mb-4">
+            </div>
+            <p class="text-lg mb-1 font-bold">해저도시 타코야키</p>
+            <p class="mb-4">김청귤 지음, 래빗홀</p>
+            <a href="#" target="_blank" class="block py-2 text-center bg-slate-300 rounded-lg">보러가기</a>
+        </div>
+        <div class="item shadow-lg p-4 m-4 bg-white rounded-2xl">
+            <div
+                class="w-[320px] h-[400px]  bg-[url(./img/3-2.jpg)] bg-cover bg-center rounded-2xl mb-4">
+            </div>
+            <p class="text-lg mb-1 font-bold">SF 보다 Vol 3. 빛</p>
+            <p class="mb-4">단요 외 지음, 문학과지성사</p>
+            <a href="#" target="_blank" class="block py-2 text-center bg-slate-300 rounded-lg">보러가기</a>
+        </div>
+        <div class="item shadow-lg p-4 m-4 bg-white rounded-2xl">
+            <div
+                class="w-[320px] h-[400px]  bg-[url(./img/3-3.jpg)] bg-cover bg-center rounded-2xl mb-4">
+            </div>
+            <p class="text-lg mb-1 font-bold">메르헨</p>
+            <p class="mb-4">연여름 지음, 아작</p>
+            <a href="#" target="_blank" class="block py-2 text-center bg-slate-300 rounded-lg">보러가기</a>
+        </div>
+        <div class="item shadow-lg p-4 m-4 bg-white rounded-2xl">
+            <div
+                class="w-[320px] h-[400px]  bg-[url(./img/3-4.jpg)] bg-cover bg-center rounded-2xl mb-4">
+            </div>
+            <p class="text-lg mb-1 font-bold">일인칭 전업작가 시점</p>
+            <p class="mb-4">심너울 지음, 문학수첩</p>
+            <a href="#" target="_blank" class="block py-2 text-center bg-slate-300 rounded-lg">보러가기</a>
+        </div>
+        <div class="item shadow-lg p-4 m-4 bg-white rounded-2xl">
+            <div
+                class="w-[320px] h-[400px]  bg-[url(./img/3-5.jpg)] bg-cover bg-center rounded-2xl mb-4">
+            </div>
+            <p class="text-lg mb-1 font-bold">사진</p>
+            <p class="mb-4">바버라 런던 외 지음, 미진사</p>
+            <a href="#" target="_blank" class="block py-2 text-center bg-slate-300 rounded-lg">보러가기</a>
+        </div>
+        <div class="item shadow-lg p-4 m-4 bg-white rounded-2xl">
+            <div
+                class="w-[320px] h-[400px]  bg-[url(../img/3-6.jpg)] bg-cover bg-center rounded-2xl mb-4">
+            </div>
+            <p class="text-lg mb-1 font-bold">나의 때가 오면</p>
+            <p class="mb-4">다이앤 렘 지음, 문예출판사</p>
+            <a href="#" target="_blank" class="block py-2 text-center bg-slate-300 rounded-lg">보러가기</a>
+        </div>
+    </div>
+    -->
+    <footer class="pt-4 pb-16 text-center">
+        최종갱신 2025.02.09
+    </footer>
+</body>
+
+</html>
